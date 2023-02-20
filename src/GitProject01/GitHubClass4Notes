@@ -1,0 +1,52 @@
+Git Class 4:
+What is Git:?
+-Git is version control system,that helps us to keep track and backup our project!
+
+What is GitHub?
+-GitHub is a remote location where we can have our backed up codes safe for future references.
+-We can work in collaboration on the same project.
+
+What is a Local Repo?
+-A repo is a storage area, and by local it means it is on our system
+
+What is remote Repo?
+-a storage are,and by remote means it is on the on the internet!
+
+----------------------------------------------
+
+Tracking our first project using Git:
+**-->Create a new project in Intellij and in order to start tracking it follow the
+following steps:
+
+Step -->1.The first step find the location of your project.(in intellij the path is
+written in front of project name,you can also right click
+on project name and the click on open in explorer.
+Step -->2.Decide the location where you want to create your project.(Please do not create a repo
+within a repo)
+Step -->3 Navigate your terminal to the location of your project.
+
+Initializing(starting)the repo:
+Step 1--> On Git bash.
+->pwd(Find the locator)
+-->git init
+
+******3-Stage architecture:--->Git has three Stage architecture and they are:
+1-Working Directory.
+2-Staging Area
+3-Repo
+Working directory--->:all the files that you have in your project
+Staging area-->:An area between repo and working directory,here the snapshot
+of all the files are moved before actually moving them to repo.
+-->Repo:Our actual storage are.
+
+Step 2-->git status command
+-tells the status of repo,
+-and the untracked files
+-files that are in staging are but not in repo yet!
+-It does not tell us about files in staging area  which are also in repo!
+-untracked files appeared RED color
+-tracked -->the files  in staging area are appearing in Green color
+
+
+
+
