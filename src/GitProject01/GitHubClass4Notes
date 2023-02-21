@@ -84,6 +84,9 @@ staging area that needs to be in the repo.
 2.git rm --cached filename:
 removes the files from the staging area.
 
+3.git diff:
+shows you the difference between the files in working directory and the staging area!!!
+
 
 
 
