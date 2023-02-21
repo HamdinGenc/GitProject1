@@ -49,4 +49,22 @@ Step 2-->git status command
 
 
 
+GitHub:
+-For each local repo you must have a unique individual remote repo!!!
+1.Create a new Remote Repo:
+2.On your terminal " git remote -v" to check any connections(if empty shows no no connection yet)
+3.git remote add origin URL
+4.Git branch -M main(naming your branch)
+
+NoteImp-->you need to do all these steps only once after creation of a new repo!
+         after that you do not need them unless,
+         you want to change your connection.
+
+5.git push  -u origin main--->use it first time only.
+6.After that you can just type  it "git push" command  only command.
+--------------------------
+extra commands:
+git remote remove origin--> is to remove the connection of local with remote.
+
+
 

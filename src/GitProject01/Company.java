@@ -5,7 +5,10 @@ public class Company {
             //write your code here.
 
             System.out.println("I am Groot!!!");
-        }
+            System.out.println("I am Groot!!!");
+            System.out.println("I am Groot!!!");
+
+    }
 
 
     }
